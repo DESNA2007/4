@@ -10,6 +10,7 @@ var bird, slingShot;
 
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
+
 }
 
 function setup(){
@@ -35,15 +36,16 @@ function setup(){
     box5 = new Box(810,160,70,70);
     log4 = new Log(760,120,150, PI/7);
     log5 = new Log(870,120,150, -PI/7);
-
-    bird = new Bird(100,100);
+//jgldfknvknjo nnknnnmnm,mmghhghghgghhghghghghgghhgghvbvbvbvbvbvvbvbvbvbvvbvbvvbvbvbvbvb
+    bird = new Bird(200,50);
 
     //log6 = new Log(230,180,80, PI/2);
-    slingshot = new SlingShot(bird.body,{x:200, y:100});
+    slingshot = new SlingShot(bird.body,{x:200, y:50});
 }
-
+//uwuwuwuwuwuwuwuwuwuwuwuwuwuwuwwuwuowowowowowowowowowowwo
 function draw(){
     background(backgroundImg);
+    //hi mam I can see you
     Engine.update(engine);
     strokeWeight(4);
     box1.display();
